@@ -29,30 +29,30 @@ namespace fukevHensu
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-            vx = 0;
-            vy = +5;
+
+            textBox1.Text = "0";
+            textBox2.Text = "-5";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-            vx = +5;
-            vy = 0;
+
+            textBox1.Text = "5";
+            textBox2.Text = "0";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-           
-            vx = -5;
-            vy = 0;
+
+            textBox1.Text = "0";
+            textBox2.Text = "+5";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
-            vx = 0;
-            vy = -5;
+
+            textBox1.Text = "-5";
+            textBox2.Text = "0";
         }
     }
 }
